@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>LAUNDARY</title>
+  <link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body background="laundary.jpeg">
+
+<center>
+<section class="form">
+<form action="insert_laundary.php" name="insert" method="post" onclick=""> 
+
+<p>
+<h1><br><br>
+	<label for="Laundary"> LAUNDARY  </label></h1><br>
+<p>
+    <label for="Custid">Enter the Custid</label> 
+    <input type="number" name="Custid" required>
+    </p> 
+
+<p>
+<h3><label for="Mens_wear"> MENS'WEAR: </label></h3>
+	<select name="Menswear"  id="Menswear" required>
+	<option value=""> Select  </option>
+    <option value="Pants"> PANTS  </option>
+	<option value="Shirts"> SHIRT'S </option>
+	
+	</select><br>
+</p>
+
+
+<p>
+<h3><label for="Ladies_wear"> LADIE'S WEAR: </label></h3>
+	<select name="Ladieswear"  id="Ladieswear" required>
+	<option value=""> Select  </option>
+    <option value="Pants"> PANT'S  </option>
+	<option value="Dresses"> DRESSE'S </option>	
+	</select><br>
+</p>
+
+
+<p>
+	<input type="submit" id="submit" name="submit" value="Submit">
+</p>
+</form>
+</section>
+<a href="customer.php">
+<button>Back</button>
+</a>
+</center>
+</body>
+</html>
